@@ -1,0 +1,154 @@
+# Основные файлы и директории
+.idea/
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.swp
+*~
+.DS_Store
+
+# Логи и временные файлы
+*.log
+*.bak
+*.tmp
+
+# Конфигурации окружения
+venv/
+env/
+ENV/
+venv.bak/
+.vscode/
+.vscode-test/
+.vscode-extension-test/
+
+# Виртуальные окружения и пакеты
+*.egg-info/
+.eggs/
+*.egg
+*.wheel
+dist/
+build/
+pip-wheel-metadata/
+pip-log.txt
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# PyCharm workspace
+.idea/
+*.iml
+
+# MacOS-specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows-specific files
+Thumbs.db
+ehthumbs.db
+
+# Python specific
+*.py[cod]
+*.pyc
+__pycache__/
+.python-version
+
+# Distribution / packaging
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+htmlcov/
+.tox/
+nox/
+.coverage
+coverage.xml
+*.cover
+.hypothesis/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyInstaller
+# Usually these files are written by a python script from a template
+# before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# MyPy
+.mypy_cache/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.spyderproject
+.spyproject
+
+# Test coverage
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Virtualenv
+# Run `git clean -fdx` to delete these files if you want to remove the venv from the repo
+.env/
+.venv/
+ENV/
+env/
+venv/
+venv.bak/
+ENV.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# profiling data
+.prof
